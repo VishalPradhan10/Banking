@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Management System</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+<div id="log_box">
+    <input id="user_in" type="text" placeholder="Username">
+    <br>
+    <input id="pass_in" type="password" placeholder="password">
+    <br>
+    <button id="log_btn">Login</button>
+</div>
+
+<div id="main">
+<div class="row">
+    <div class="col-4">
+    <div class="card" id="deposit" style="width: 18rem;margin-left: 20px;">
+        <div class="card-body">
+    <h5 class="card-title">Deposit</h5>
+    <h6 class="card-subtitle">$ <span id="depo-am">00</span></h6>
+</div>
+    </div>
+    </div>
+
+    <div class="col-4">
+<div class="card" id="withdraw"style="width: 18rem;margin-left: 20px;">
+    <div class="card-body">
+    <h5 class="card-title">Withdraw</h5>
+    <h6 class="card-subtitle">$ <span id="withdraw-no">00</span></h6>
+</div>
+    </div>
+    </div>
+
+    <div class="col-4">
+<div class="card" id="balance" style="width: 18rem;margin-left: 20px;">
+    <div class="card-body">
+    <h5 class="card-title">Balance</h5>
+    <h6 class="card-subtitle">$ <span id="balance-amt">00</span></h6>
+</div>
+    </div>
+    </div>
+
+<div class="row" style="margin-top: 70px;margin-bottom: 150px;">
+    <div class="col-6">
+<div class="card" id="deposit-amt" style="width: 450px;margin-left: 50px;">
+    <div class="card-body">
+    <h5 class="card-title">Deposit Amount $<span id="deposit-number">00</span></h5>
+    <input id="input-deposit"type="number" placeholder="Enter your Deposit amount"> <br>
+    <button id="deposit-btn">Deposit</button>
+</div>
+</div>
+</div>
+
+<div class="col-6">
+<div class="card" id="withdraw-amt" style="width: 450px;margin-left: 50px;">
+   <div class="card-body">
+    <h5 class="card-title">Withdraw Amount $<span id="withdraw-number">00</span></h5>
+    <input id="withdraw-input" type="number" placeholder="Enter your Withdraw amount"> <br>
+    <button id="withdraw-btn">Withdraw</button>
+</div>
+</div>
+ 
+</div>
+</div>
+
+<script src="home.js"></script>
+</div>
+</div>
+
+</body>
+</html>

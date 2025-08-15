@@ -1,0 +1,37 @@
+#log_box{
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    margin-left: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+input{
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+}
+.col-4,.col-6{
+    display: inline-block;
+}
+#deposit{
+    background-color:green;
+    color: white;
+}
+#withdraw{
+    background-color:green;
+    color: white;
+}
+#balance{
+    background-color:green;
+    color: white;
+}
+#deposit-amt{
+    background-color:rgb(0, 208, 255);
+    color: white;
+}
+#withdraw-amt{
+    background-color:rgb(0, 208, 255);
+    color: white;
+}
